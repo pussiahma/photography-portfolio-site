@@ -69,7 +69,7 @@ nav {
   text-align: center; }
 
 .container-fluid {
-  padding: 15%;
+  padding: 5%;
   max-width: 1400px; }
 
 .row {
@@ -77,8 +77,8 @@ nav {
   padding: 0; }
 
 .item {
-  width: 420px;
-  padding: 50px;
+  width: 570px;
+  padding: 30px;
   float: none; }
 
 .item img {

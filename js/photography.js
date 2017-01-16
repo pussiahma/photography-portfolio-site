@@ -33,6 +33,6 @@ console.log("header clicked");
 
  $('.container-fluid').masonry({
         itemSelector: '.item',
-        columnWidth: 420
+        columnWidth: 607.55
 
 });
