@@ -116,7 +116,7 @@ footer {
       font-size: 1.5em; }
 
   .header-img {
-    height: 600px; }
+    height: 550px; }
 
   .container-fluid {
     padding: 10px; }
@@ -125,8 +125,9 @@ footer {
     position: absolute; }
 
   footer {
-    height: 100vh;
-    padding: 50px; }
+    height: auto;
+    padding: 50px;
+    overflow: visible; }
     footer #about, footer #contact {
       width: 100%;
       float: none;
@@ -145,7 +146,7 @@ footer {
     padding-right: 0; } }
 @media (max-width: 1024px) {
   footer {
-    height: 550px; }
+    height: auto; }
     footer #contact {
       padding-right: 50px; }
 

@@ -25,7 +25,7 @@ height: 100vh;
 
 
 .header-img {
-	height: 600px;
+	height: 550px;
 }
 
 .container-fluid {
@@ -40,8 +40,9 @@ nav {
 
 footer {
 
-height: 100vh;
+height:auto;
 padding: 50px;
+overflow: visible;
 	#about, #contact {
 	width: 100%;
 	float: none;
@@ -74,7 +75,7 @@ padding-right: 0;
 @media (max-width: 1024px) {
 
 footer {
-	height: 550px;
+height: auto;
 
 #contact {
 	padding-right: 50px;
