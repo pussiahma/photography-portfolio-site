@@ -29,10 +29,11 @@ console.log("header clicked");
 
 
 //mansonrykoodi
-
+/*
 
  $('.container-fluid').masonry({
         itemSelector: '.item',
         columnWidth: 607.55
 
 });
+*/

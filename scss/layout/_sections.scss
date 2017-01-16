@@ -1,31 +1,14 @@
 .container-fluid {
-	padding: 5%;
+	padding: 10%;
 	max-width: 1400px;
 
 }
-.row {
-	margin:0;
-	padding: 0;
-}
-
-.item {
-	width: 570px;
-	padding: 30px;
-	float: none;
-}
-
-.item img {
-    display: block;
-    width: 100%;
-}
-
 
 .col h4 {
 	padding: 10px;
 }
 
 
-.col {
-	margin:0;
-	padding: 0;
+.col-lg-6{
+padding-top: 30px;
 }

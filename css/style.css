@@ -69,28 +69,14 @@ nav {
   text-align: center; }
 
 .container-fluid {
-  padding: 5%;
+  padding: 10%;
   max-width: 1400px; }
-
-.row {
-  margin: 0;
-  padding: 0; }
-
-.item {
-  width: 570px;
-  padding: 30px;
-  float: none; }
-
-.item img {
-  display: block;
-  width: 100%; }
 
 .col h4 {
   padding: 10px; }
 
-.col {
-  margin: 0;
-  padding: 0; }
+.col-lg-6 {
+  padding-top: 30px; }
 
 footer {
   height: 450px;
@@ -115,7 +101,7 @@ footer {
   footer #quote {
     padding: 30px; }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
   h1 {
     font-size: 2em !important; } }
 @media (max-width: 820px) {
@@ -130,7 +116,7 @@ footer {
       font-size: 1.5em; }
 
   .header-img {
-    height: 85vh; }
+    height: 600px; }
 
   .container-fluid {
     padding: 10px; }

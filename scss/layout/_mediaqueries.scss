@@ -1,8 +1,10 @@
 
-@media (max-width: 500px) {
-h1 {
+@media (max-width: 480px) {
+	h1 {
 	font-size: 2em !important;
 	}
+
+
 }
 
 @media (max-width: 820px) {
@@ -23,7 +25,7 @@ height: 100vh;
 
 
 .header-img {
-	height: 100vh - $headerh;
+	height: 600px;
 }
 
 .container-fluid {
