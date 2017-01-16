@@ -3,11 +3,14 @@
 	max-width: 1400px;
 
 }
-
+.row {
+	margin:0;
+	padding: 0;
+}
 
 .item {
-margin: 0 auto;
 	width: 420px;
+	padding: 50px;
 	float: none;
 }
 
@@ -21,3 +24,8 @@ margin: 0 auto;
 	padding: 10px;
 }
 
+
+.col {
+	margin:0;
+	padding: 0;
+}
