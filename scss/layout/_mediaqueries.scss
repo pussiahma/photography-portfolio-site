@@ -72,13 +72,15 @@ padding-right: 0;
 }
 
 
-@media (max-width: 1024px) {
+@media(min-width: 820px) and (max-width: 1024px) {
 
 footer {
-height: auto;
+padding-top: 100px !important;
+height: 650px;
+
 
 #contact {
-	padding-right: 50px;
+padding-left: 120px;
 	}
 }
 
