@@ -1,0 +1,38 @@
+footer {
+	height: 450px;
+	background: black;
+	color: #ccc;
+
+
+	h2 {
+	font-family: "Poiret One", sans serif;
+	text-transform: uppercase;
+	}
+	
+	h3 {
+	font-family: 'Frank Ruhl Libre', sans-serif;
+	}
+
+	p {
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	}
+
+	#about, #contact {
+	width: 50%;
+	float: left;
+	padding-top: 140px;
+	}
+
+	#contact {
+	padding-left: 250px;
+	}
+
+	#about {
+	padding-left: 80px;
+	}
+
+	#quote {
+	padding: 30px;
+	}
+}

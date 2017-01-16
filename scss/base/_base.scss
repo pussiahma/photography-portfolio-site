@@ -1,0 +1,37 @@
+
+body{
+	background: white;
+}
+
+
+h1, .nav a {
+	text-transform: uppercase;
+}
+
+h4  {
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	text-align: center;
+	padding: 20px;
+}
+
+
+a {
+outline: none !important;
+border: none !important;
+text-decoration: none !important;
+background: transparent !important;
+	color: black;
+
+
+&:active {
+	color: #df925f !important;
+	}
+	&:focus {
+	color: #df925f;
+	}
+}
+
+.selected {
+	color: #8C001A;
+}

@@ -1,0 +1,62 @@
+header {
+	height: $headerh;
+
+
+
+}
+nav {
+	padding-left: 20px;
+	padding-right: 20px;
+position:fixed;
+height: 100px;
+width: 100%;
+z-index: 1000;
+background: white;
+margin: 0;
+border-bottom: 1px solid #ccc;
+}
+
+.nav{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+.menuitem, .icon {
+font-family: 'Frank Ruhl Libre', sans-serif;
+	font-size: 1.3em;
+	padding-top: 30px;
+a:hover {
+ color:#df925f;
+ transition: color 0.3s;
+		}
+
+	}
+
+.headline {
+	margin-right: auto;
+	font-family: "Poiret One", sans serif;
+	a{
+	&:hover{
+	color: black;
+		}
+	&:active{
+	color:black;
+		}	
+	}
+	}
+}
+
+
+.header-img {
+	background: url("../img/selfie1.JPG")
+	no-repeat;
+  height: 90vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+  width: 100%;
+  text-align: center;
+
+}
