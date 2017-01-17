@@ -24,6 +24,26 @@ a {
 .selected {
   color: #8C001A; }
 
+hr {
+  display: none;
+  color: #ccc;
+  width: 30px; }
+
+#backarrow {
+  width: 100%;
+  clear: both;
+  text-align: center; }
+  #backarrow #back {
+    color: #ccc;
+    opacity: 0.7;
+    font-size: 4em;
+    font-weight: normal;
+    text-align: center;
+    clear: both; }
+    #backarrow #back:hover {
+      opacity: 0.3;
+      transition: opacity 0.3s; }
+
 header {
   height: 15vh; }
 
@@ -43,7 +63,7 @@ nav {
   flex-flow: row wrap;
   justify-content: space-between; }
   .nav .menuitem, .nav .icon {
-    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 1.3em;
     padding-top: 30px; }
     .nav .menuitem a:hover, .nav .icon a:hover {
@@ -71,17 +91,18 @@ nav {
 .container-fluid {
   padding: 10%;
   max-width: 1400px; }
-
-.col h4 {
-  padding: 10px; }
-
-.col-lg-6 {
-  padding-top: 30px; }
+  .container-fluid .col h4 {
+    padding: 10px;
+    font-size: 0.4em; }
+  .container-fluid .col-lg-6, .container-fluid .col-lg-4 {
+    padding-top: 30px; }
 
 footer {
-  height: 450px;
+  height: 550px;
   background: black;
-  color: #ccc; }
+  color: #ccc;
+  clear: both;
+  padding-bottom: 50px; }
   footer h2 {
     font-family: "Poiret One", sans serif;
     text-transform: uppercase; }
@@ -137,8 +158,12 @@ footer {
       padding-top: 30px; }
     footer quote {
       padding: 50px; }
+    footer hr {
+      display: block; }
     footer #contact {
       padding-right: 0px !important; }
+    footer #backarrow {
+      padding-top: 20px; }
 
   .col-md-6 {
     padding-top: 50px;
@@ -147,7 +172,7 @@ footer {
 @media (min-width: 820px) and (max-width: 1024px) {
   footer {
     padding-top: 100px !important;
-    height: 650px; }
+    height: 700px; }
     footer #contact {
       padding-left: 120px; }
 

@@ -1,0 +1,24 @@
+
+#backarrow {
+
+width: 100%;
+clear:both;
+text-align: center;
+
+#back {
+	color: #ccc;
+	opacity: 0.7;
+	font-size: 4em;
+	font-weight: normal;
+	text-align: center;
+	clear: both;
+&:hover {
+	opacity: 0.3;
+	transition: opacity 0.3s;
+}
+
+	
+}
+
+}
+

@@ -1,16 +1,15 @@
-$(".nav .menuitem a").click(function() {
-  $(".nav .menuitem a").removeClass("selected");
-   $(this).addClass("selected");
-    return false;
-});
-
-$(".nav .headline a").click(function() {
-	$(".nav .menuitem a").removeClass("selected");
-console.log("header clicked");
-});
 
 
-	$($("nav .menuitem a")).on('click', function(e) {
+function load(img)
+{
+  img.fadeOut(0, function() {
+    img.fadeIn(1500);
+  });
+}
+$('.lazyload').lazyload({load: load});
+
+
+	$($(".menuitem a")).on('click', function(e) {
    e.preventDefault();
 //varastoi klikatun hashin
    let hash = this.hash;
@@ -26,6 +25,30 @@ console.log("header clicked");
 
 }); 
 
+
+$(window).scroll(function() {
+
+let portfolioOffset = $("#portfolio").offset().top-120;
+let aboutOffset = $("footer #about").offset().top-120;
+let port = $("nav #port");
+let ab = $("nav #ab");
+let scrollTop = $(this).scrollTop();
+
+if(scrollTop > portfolioOffset&& scrollTop < aboutOffset) {
+	port.addClass("selected");
+	ab.removeClass("selected");
+}else if(scrollTop > aboutOffset) {
+	ab.addClass("selected");
+	port.removeClass("selected");
+}else if(scrollTop < portfolioOffset) {
+	port.removeClass("selected");
+	ab.removeClass("selected");
+
+}
+
+
+
+});
 
 
 //mansonrykoodi
