@@ -1,14 +1,5 @@
 
 
-function load(img)
-{
-  img.fadeOut(0, function() {
-    img.fadeIn(2000);
-  });
-}
-$('.lazyload').lazyload({load: load});
-
-
 	$($(".menuitem a")).on('click', function(e) {
    e.preventDefault();
 //varastoi klikatun hashin
@@ -51,7 +42,19 @@ if(scrollTop > portfolioOffset&& scrollTop < aboutOffset) {
 });
 
 
-//mansonrykoodi
+
+
+
+function load(img)
+{
+  img.fadeOut(0, function() {
+    img.fadeIn(2000);
+  });
+}
+$('.lazyload').lazyload({load: load});
+
+
+//masonrykoodi
 /*
 
  $('.container-fluid').masonry({
