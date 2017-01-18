@@ -1,3 +1,12 @@
+ 
+$('.container-fluid').imagesLoaded( function(){
+ $('.container-fluid').masonry({
+        columnWidth: '.grid-sizer',
+itemSelector: '.item',
+isFitWidth: true
+
+});
+ });
 
 
 	$($(".menuitem a")).on('click', function(e) {
@@ -57,7 +66,7 @@ let itemOffset = $(this).offset().top-500;
 
 
 
-
+/*lazyload
 
 function load(img)
 {
@@ -66,14 +75,7 @@ function load(img)
   });
 }
 $('.lazyload').lazyload({load: load});
-
+*/
 
 //masonrykoodi
 
-
- $('.container-fluid').masonry({
-        columnWidth: '.grid-sizer',
-itemSelector: '.item',
-isFitWidth: true
-
-});
