@@ -6,8 +6,7 @@ itemSelector: '.item',
 isFitWidth: true
 
 });
- });
-
+});
 
 	$($(".menuitem a")).on('click', function(e) {
    e.preventDefault();
@@ -48,7 +47,9 @@ if(scrollTop > portfolioOffset&& scrollTop < aboutOffset) {
 	ab.removeClass("selected");
 
 }
+
 item.each(function() {
+
 
 let itemOffset = $(this).offset().top-500;
 
@@ -57,6 +58,7 @@ let itemOffset = $(this).offset().top-500;
 		console.log("worked?");
 	}
 		});
+
 
 
 
