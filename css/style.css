@@ -78,7 +78,7 @@ nav {
       color: black; }
 
 .header-img {
-  background: url("../img/selfie1.JPG") no-repeat;
+  background: url("../img/selfie2.JPG") no-repeat;
   height: 90vh;
   background-attachment: fixed;
   background-position: center;
@@ -89,13 +89,13 @@ nav {
   text-align: center; }
 
 .container-fluid {
-  padding: 10%;
+  padding: 17%;
   max-width: 1400px; }
   .container-fluid .col h4 {
     padding: 10px;
     font-size: 0.4em; }
   .container-fluid .col-lg-6, .container-fluid .col-lg-4 {
-    padding-top: 30px; }
+    padding-top: 100px; }
 
 footer {
   height: 550px;
@@ -177,6 +177,9 @@ footer {
       padding-left: 120px; }
 
   .row {
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  .container-fluid {
+    padding: 9%; } }
 
 /*# sourceMappingURL=style.css.map */

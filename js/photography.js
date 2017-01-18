@@ -3,7 +3,7 @@
 function load(img)
 {
   img.fadeOut(0, function() {
-    img.fadeIn(1500);
+    img.fadeIn(2000);
   });
 }
 $('.lazyload').lazyload({load: load});
