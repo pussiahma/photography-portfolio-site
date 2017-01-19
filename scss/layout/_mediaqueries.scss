@@ -6,12 +6,11 @@
 
 
 .grid {
-	padding-top: 100px;
-	padding-bottom: 100px;
 	margin: 0 auto;
+	padding: 100px 0px 100px 0px;
 
 .item, .grid-sizer, {
-	width: 290px;
+	width: 290px !important;
 
 
 			}
@@ -21,6 +20,10 @@
 
 @media (max-width: 820px) {
 
+
+.header-img{
+	height: 500px;
+}
 
 footer {
 
@@ -37,7 +40,7 @@ overflow: visible;
 
 	}
 quote {
-	padding: 50px;
+	padding: 10px;
 
 }
 
@@ -63,18 +66,13 @@ height: 100vh;
 .menuitem a, .icon a{
 	color: white;
 	transition: color 0.4s;
-	font-size: 1.4em;
+	font-size: 1.2em;
+	text-shadow: .5px .5px 1px #333;
 }  
 
 
   }
 
-
-.container-fluid {
-
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
 
 
 nav {
@@ -119,35 +117,8 @@ nav {
 @media(min-width: 820px) and (max-width: 960px) {
 
 footer {
-height: 440px;
+height: 500px;
 
-
-
-
-#contact {
-
-padding-left: 120px;
-	}
-
-		#about, #contact {
-	padding-top: 50px;
-	}
- 
- #quote {
- padding: 10px;
- }
-
-
-}
-
-}
-
-
-
-@media(min-width: 960px) and (max-width: 1350px) {
-
-footer {
-height: 435px;
 
 
 
@@ -163,6 +134,40 @@ padding-left: 120px;
  #quote {
  padding: 10px;
  }
+#backarrow {
+	padding-top: 60px;
+}
+
+
+}
+
+}
+
+
+
+@media(min-width: 960px) and (max-width: 1350px) {
+
+footer {
+height: 500px;
+
+
+
+#contact {
+
+padding-left: 120px;
+	}
+
+		#about, #contact {
+	padding-top: 70px;
+	}
+ 
+ #quote {
+ padding: 10px;
+ }
+
+#backarrow {
+	padding-top: 60px;
+}
 
 }
 
