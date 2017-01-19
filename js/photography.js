@@ -16,7 +16,7 @@ isFitWidth: true
    $('html, body').animate({
     //kuinka monta pikseliä klikatun hashin yläpuolella on ikkunassa
     //tämä on se matka jonka animaatio kulkee klikattaessa, joko ylös tai alas
-       scrollTop: $(hash).offset().top-100
+       scrollTop: $(hash).offset().top
      },1000, function(){
         //lisää urliin klikatun hashin
        window.location.hash = hash;
@@ -64,20 +64,4 @@ let itemOffset = $(this).offset().top-500;
 
 
 });
-
-
-
-
-/*lazyload
-
-function load(img)
-{
-  img.fadeOut(0, function() {
-    img.fadeIn(2000);
-  });
-}
-$('.lazyload').lazyload({load: load});
-*/
-
-//masonrykoodi
 

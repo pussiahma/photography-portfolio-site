@@ -50,7 +50,7 @@ a:hover {
 .header-img {
 	background: url("../img/selfie4.jpg")
 	no-repeat;
-  height: 90vh;
+  height: 100vh - $headerh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

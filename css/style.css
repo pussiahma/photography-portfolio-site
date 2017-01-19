@@ -36,7 +36,7 @@ hr {
   #backarrow #back {
     color: #ccc;
     opacity: 0.7;
-    font-size: 4em;
+    font-size: 2.5em;
     font-weight: normal;
     text-align: center;
     clear: both; }
@@ -79,7 +79,7 @@ nav {
 
 .header-img {
   background: url("../img/selfie4.jpg") no-repeat;
-  height: 90vh;
+  height: 85vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -89,7 +89,7 @@ nav {
   text-align: center; }
 
 .grid {
-  padding: 100px 40px 100px 40px;
+  padding: 150px 40px 150px 40px;
   margin: 0 auto;
   max-width: 1400px;
   height: 100%; }
@@ -105,11 +105,10 @@ nav {
     float: left; }
 
 footer {
-  height: 600px;
+  height: 540px;
   background: black;
   color: #ccc;
-  clear: both;
-  padding-bottom: 100px; }
+  clear: both; }
   footer h2 {
     font-family: "Poiret One", sans serif;
     text-transform: uppercase; }
@@ -127,7 +126,7 @@ footer {
   footer #about {
     padding-left: 80px; }
   footer #quote {
-    padding: 30px; }
+    padding: 40px; }
 
 @media (max-width: 480px) {
   h1 {
@@ -140,25 +139,6 @@ footer {
     .grid .item, .grid .grid-sizer {
       width: 290px; } }
 @media (max-width: 820px) {
-  .nav {
-    display: block;
-    text-align: center;
-    padding: 10px 15px;
-    height: 100vh; }
-    .nav .menuitem a, .nav .icon a {
-      color: white;
-      transition: color 0.4s;
-      font-size: 1.5em; }
-
-  .header-img {
-    height: 550px; }
-
-  .container-fluid {
-    padding: 10px; }
-
-  nav {
-    position: absolute; }
-
   footer {
     height: auto;
     padding: 50px;
@@ -179,21 +159,45 @@ footer {
     footer #backarrow {
       padding-top: 20px; }
 
-  .col-md-6 {
-    padding-top: 50px;
-    padding-left: 0;
-    padding-right: 0; } }
+  .nav {
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+    height: 100vh; }
+    .nav .menuitem a, .nav .icon a {
+      color: white;
+      transition: color 0.4s;
+      font-size: 1.4em; }
+
+  .container-fluid {
+    padding-top: 100px;
+    padding-bottom: 100px; }
+
+  nav {
+    position: absolute; } }
 @media (min-width: 768px) and (max-width: 820px) {
   .grid .item, .grid .grid-sizer {
     width: 340px; } }
 @media (min-width: 820px) and (max-width: 1024px) {
   .menuitem a, .icon a {
-    font-size: 0.9em; }
-
+    font-size: 0.9em; } }
+@media (min-width: 820px) and (max-width: 960px) {
   footer {
-    padding-top: 100px !important;
-    height: 700px; }
+    height: 440px; }
     footer #contact {
-      padding-left: 120px; } }
+      padding-left: 120px; }
+    footer #about, footer #contact {
+      padding-top: 50px; }
+    footer #quote {
+      padding: 10px; } }
+@media (min-width: 960px) and (max-width: 1350px) {
+  footer {
+    height: 435px; }
+    footer #contact {
+      padding-left: 120px; }
+    footer #about, footer #contact {
+      padding-top: 70px; }
+    footer #quote {
+      padding: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
