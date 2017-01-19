@@ -1,5 +1,5 @@
 
-@media (max-width: 480px) {
+@media ( max-width: 480px) {
 	h1 {
 	font-size: 2em !important;
 	}
@@ -10,7 +10,7 @@
 	padding: 100px 0px 100px 0px;
 
 .item, .grid-sizer, {
-	width: 290px !important;
+	width: 300px !important;
 
 
 			}
@@ -80,18 +80,24 @@ nav {
 
 }
 
+.grid {
+	margin: 0 auto;
+	padding: 100px 0px 100px 0px;
+	}
 
 
 }
 
 
-@media(min-width: 768px) and (max-width: 820px) {
+
+
+@media(min-width: 480px) and (max-width: 768px) {
 
 
   .grid {
 
 .item, .grid-sizer, {
-	width: 340px;
+	width: 450px;
 
 
 			}
@@ -100,6 +106,9 @@ nav {
 
 
 }
+
+
+
 
 
 
