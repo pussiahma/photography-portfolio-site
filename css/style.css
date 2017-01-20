@@ -192,22 +192,14 @@ footer {
     height: 500px; }
     footer #contact {
       padding-left: 120px; }
-    footer #about, footer #contact {
-      padding-top: 70px; }
     footer #quote {
-      padding: 10px; }
-    footer #backarrow {
-      padding-top: 60px; } }
+      padding: 10px; } }
 @media (min-width: 960px) and (max-width: 1350px) {
   footer {
-    height: 500px; }
+    height: 470px; }
     footer #contact {
       padding-left: 120px; }
-    footer #about, footer #contact {
-      padding-top: 70px; }
     footer #quote {
-      padding: 10px; }
-    footer #backarrow {
-      padding-top: 60px; } }
+      padding: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
