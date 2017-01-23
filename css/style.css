@@ -29,6 +29,9 @@ hr {
   color: #ccc;
   width: 30px; }
 
+p {
+  text-decoration: none; }
+
 #backarrow {
   width: 100%;
   clear: both;
