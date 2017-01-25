@@ -141,9 +141,6 @@ footer {
     .grid .item, .grid .grid-sizer {
       width: 290px !important; } }
 @media (max-width: 820px) {
-  .header-img {
-    height: 500px; }
-
   footer {
     height: auto;
     padding: 50px;
