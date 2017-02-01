@@ -1,4 +1,5 @@
  
+$(document).ready(function(){
 $('.container-fluid').imagesLoaded( function(){
  $('.container-fluid').masonry({
         columnWidth: '.grid-sizer',
@@ -61,3 +62,5 @@ let itemOffset = $(this).offset().top-500;
 
 });
 
+
+});

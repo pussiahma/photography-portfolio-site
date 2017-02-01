@@ -68,7 +68,7 @@ nav {
   justify-content: space-between; }
   .nav .menuitem, .nav .icon {
     font-family: 'Merriweather', serif;
-    font-size: 1.3em;
+    font-size: 1.5em;
     padding-top: 30px; }
     .nav .menuitem a:hover, .nav .icon a:hover {
       color: #df925f;
@@ -190,14 +190,14 @@ footer {
     font-size: 0.9em; } }
 @media (min-width: 820px) and (max-width: 960px) {
   footer {
-    height: 520px; }
+    height: 600px; }
     footer #contact {
       padding-left: 120px; }
     footer #quote {
       padding: 10px; } }
 @media (min-width: 960px) and (max-width: 1350px) {
   footer {
-    height: 500px; }
+    height: 530px; }
     footer #contact {
       padding-left: 120px; }
     footer #quote {
