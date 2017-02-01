@@ -123,18 +123,13 @@ nav {
 
 
 
-@media(min-width: 820px) and (max-width: 1024px) {
-
+@media(min-width: 820px) and (max-width: 960px) {
 .menuitem a, .icon a{
 
-	font-size: 0.9em;
+	font-size: 0.84em !important;
 } 
 
 
-
-}
-
-@media(min-width: 820px) and (max-width: 960px) {
 
 footer {
 height: 600px;

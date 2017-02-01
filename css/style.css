@@ -185,10 +185,10 @@ footer {
 @media (min-width: 768px) and (max-width: 820px) {
   .grid .item, .grid .grid-sizer {
     width: 300px; } }
-@media (min-width: 820px) and (max-width: 1024px) {
-  .menuitem a, .icon a {
-    font-size: 0.9em; } }
 @media (min-width: 820px) and (max-width: 960px) {
+  .menuitem a, .icon a {
+    font-size: 0.84em !important; }
+
   footer {
     height: 600px; }
     footer #contact {
