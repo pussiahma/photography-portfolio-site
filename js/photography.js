@@ -1,6 +1,6 @@
  
 $(document).ready(function(){
-$('.container-fluid').imagesLoaded( function(){
+$('.container-fluid').imagesLoaded(function(){
  $('.container-fluid').masonry({
         columnWidth: '.grid-sizer',
 itemSelector: '.item',
