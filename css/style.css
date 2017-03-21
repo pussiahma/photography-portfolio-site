@@ -183,8 +183,11 @@ footer {
   .nav > li.icon a {
     display: inline; }
 
+  .nav > li #port {
+    margin-bottom: -30px; }
+
   .nav > li #ab {
-    margin-bottom: 30px; }
+    margin-bottom: 15px; }
 
   .nav .icon {
     display: inline; } }
