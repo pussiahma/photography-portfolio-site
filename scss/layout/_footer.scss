@@ -1,8 +1,9 @@
 footer {
-	height: 580px;
+	height: 100vh;
 	background: black;
 	color: #ccc;
 	clear: both;
+	padding-top: 200px;
 
 
 	h2 {
@@ -22,7 +23,6 @@ footer {
 	#about, #contact {
 	width: 50%;
 	float: left;
-	padding-top: 140px;
 	}
 
 	#contact {

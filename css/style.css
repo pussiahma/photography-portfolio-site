@@ -109,10 +109,11 @@ nav {
     float: left; }
 
 footer {
-  height: 580px;
+  height: 100vh;
   background: black;
   color: #ccc;
-  clear: both; }
+  clear: both;
+  padding-top: 200px; }
   footer h2 {
     font-family: "Poiret One", sans serif;
     text-transform: uppercase; }
@@ -123,8 +124,7 @@ footer {
     font-style: italic; }
   footer #about, footer #contact {
     width: 50%;
-    float: left;
-    padding-top: 140px; }
+    float: left; }
   footer #contact {
     padding-left: 250px; }
   footer #about {
@@ -179,6 +179,18 @@ footer {
   .grid {
     margin: 0 auto;
     padding: 100px 0px 100px 0px; } }
+@media (max-width: 820px) and (orientation: landscape) {
+  .nav > li.icon a {
+    display: inline; }
+
+  .nav > li #ab {
+    margin-bottom: 30px; }
+
+  .nav .icon {
+    display: inline; }
+
+  .header-img {
+    height: 100vh; } }
 @media (min-width: 480px) and (max-width: 768px) {
   .grid .item, .grid .grid-sizer {
     width: 450px; } }
@@ -189,18 +201,14 @@ footer {
   .menuitem a, .icon a {
     font-size: 0.84em !important; }
 
-  footer {
-    height: 600px; }
-    footer #contact {
-      padding-left: 120px; }
-    footer #quote {
-      padding: 10px; } }
+  footer #contact {
+    padding-left: 120px; }
+  footer #quote {
+    padding: 10px; } }
 @media (min-width: 960px) and (max-width: 1350px) {
-  footer {
-    height: 530px; }
-    footer #contact {
-      padding-left: 120px; }
-    footer #quote {
-      padding: 10px; } }
+  footer #contact {
+    padding-left: 120px; }
+  footer #quote {
+    padding: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
