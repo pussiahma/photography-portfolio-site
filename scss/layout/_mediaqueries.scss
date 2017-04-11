@@ -2,7 +2,7 @@
 @media ( max-width: 480px) {
 
 .header-img {
-	background: url("../img/header-small.jpg")
+	background-attachment: scroll;
    
 }
 	h1 {
@@ -25,6 +25,11 @@
 
 @media (max-width: 820px) {
 
+
+.header-img {
+	background-attachment: scroll;
+   
+}
 
 footer {
 
@@ -94,7 +99,7 @@ nav {
 @media (max-width: 820px) and (orientation: landscape) {
 	
 .header-img {
-	background: url("../img/header-small.jpg")
+	background-attachment: scroll;
    
 }
 
