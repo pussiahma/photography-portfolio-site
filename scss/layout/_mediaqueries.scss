@@ -1,5 +1,10 @@
 
 @media ( max-width: 480px) {
+
+.header-img {
+	background: url("../img/header-small.jpg")
+   
+}
 	h1 {
 	font-size: 2em !important;
 	}
@@ -88,6 +93,11 @@ nav {
 
 @media (max-width: 820px) and (orientation: landscape) {
 	
+.header-img {
+	background: url("../img/header-small.jpg")
+   
+}
+
 .nav>li.icon a{
 display: inline;
 

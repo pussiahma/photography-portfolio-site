@@ -133,6 +133,9 @@ footer {
     padding: 40px; }
 
 @media (max-width: 480px) {
+  .header-img {
+    background: url("../img/header-small.jpg"); }
+
   h1 {
     font-size: 2em !important; }
 
@@ -180,6 +183,9 @@ footer {
     margin: 0 auto;
     padding: 100px 0px 100px 0px; } }
 @media (max-width: 820px) and (orientation: landscape) {
+  .header-img {
+    background: url("../img/header-small.jpg"); }
+
   .nav > li.icon a {
     display: inline; }
 
