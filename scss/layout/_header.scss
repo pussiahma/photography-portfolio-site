@@ -1,9 +1,4 @@
-header {
-	height: $headerh;
 
-
-
-}
 nav {
 	padding-left: 20px;
 	padding-right: 20px;
@@ -50,7 +45,7 @@ a:hover {
 .header-img {
 	background: url("../img/selfie4.jpg")
 	no-repeat;
-  height: 100vh - $headerh;
+  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
