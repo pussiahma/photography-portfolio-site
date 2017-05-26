@@ -12,10 +12,16 @@ h4  {
 	font-family: 'Merriweather', serif;
 	font-style: italic;
 	text-align: center;
-	padding: 10px;
+	padding-bottom: 50px;
+	font-size: $h4;
+	
 }
 
 
+
+h1 {
+	font-size: $h1;
+}
 a {
 outline: none !important;
 border: none !important;
@@ -24,16 +30,13 @@ background: transparent !important;
 	color: black;
 
 
-&:active {
-	color: #df925f !important;
-	}
-	&:focus {
-	color: #df925f;
-	}
+&:hover {
+	color: #ff92a6 !important;
+}
 }
 
 .selected {
-	color: #8C001A;
+	color: #ff92a6;
 }
 
 
@@ -45,5 +48,17 @@ hr {
 
 p {
 	text-decoration: none;
-	font-size: 1.2em;
+	font-size: $h4;
+	font-family: 'Merriweather', serif;
+	font-style: italic;
 }
+
+	h2 {
+	font-family: "Poiret One", sans serif;
+	text-transform: uppercase;
+	}
+	
+	h3 {
+	font-family: 'Frank Ruhl Libre', sans-serif;
+	}
+

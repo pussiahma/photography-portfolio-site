@@ -8,7 +8,11 @@ h4 {
   font-family: 'Merriweather', serif;
   font-style: italic;
   text-align: center;
-  padding: 10px; }
+  padding-bottom: 50px;
+  font-size: 1em; }
+
+h1 {
+  font-size: 2.5em; }
 
 a {
   outline: none !important;
@@ -16,13 +20,11 @@ a {
   text-decoration: none !important;
   background: transparent !important;
   color: black; }
-  a:active {
-    color: #df925f !important; }
-  a:focus {
-    color: #df925f; }
+  a:hover {
+    color: #ff92a6 !important; }
 
 .selected {
-  color: #8C001A; }
+  color: #ff92a6; }
 
 hr {
   display: none;
@@ -31,7 +33,16 @@ hr {
 
 p {
   text-decoration: none;
-  font-size: 1.2em; }
+  font-size: 1em;
+  font-family: 'Merriweather', serif;
+  font-style: italic; }
+
+h2 {
+  font-family: "Poiret One", sans serif;
+  text-transform: uppercase; }
+
+h3 {
+  font-family: 'Frank Ruhl Libre', sans-serif; }
 
 #backarrow {
   width: 100%;
@@ -65,7 +76,7 @@ nav {
   justify-content: space-between; }
   .nav .menuitem, .nav .icon {
     font-family: 'Merriweather', serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding-top: 30px; }
     .nav .menuitem a:hover, .nav .icon a:hover {
       color: #df925f;
@@ -90,18 +101,15 @@ nav {
   text-align: center; }
 
 .grid {
-  padding: 150px 40px 150px 40px;
+  padding: 150px 50px 150px 50px;
   margin: 0 auto;
   max-width: 100%;
   height: 100%; }
   .grid .item, .grid .grid-sizer {
-    width: 360px;
+    width: 290px;
     margin: 10px;
     opacity: 0;
     transform: translate3d(0, 30%, 0); }
-    .grid .item h4, .grid .grid-sizer h4 {
-      font-size: 1.2em;
-      padding-bottom: 50px; }
   .grid .item {
     float: left; }
 
@@ -110,7 +118,7 @@ footer {
   background: black;
   color: #ccc;
   clear: both;
-  padding-top: 200px; }
+  padding-top: 25%; }
   footer h2 {
     font-family: "Poiret One", sans serif;
     text-transform: uppercase; }

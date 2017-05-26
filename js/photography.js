@@ -25,7 +25,7 @@ isFitWidth: true
 $(window).scroll(function() {
 
 let portfolioOffset = $("#portfolio").offset().top-120;
-let aboutOffset = $("footer #about").offset().top-10;
+let aboutOffset = $("footer").offset().top;
 let port = $("nav #port");
 let ab = $("nav #ab");
 let scrollTop = $(this).scrollTop();
@@ -52,7 +52,7 @@ let itemOffset = $(this).offset().top-500;
 
 		if(scrollTop > itemOffset) { 
 		$(this).css("opacity", "1").css("transform", "translate3d(0,0,0)").css("transition", "opacity 1.5s, transform 1s");
-		console.log("worked?");
+	
 	}
 		});
 

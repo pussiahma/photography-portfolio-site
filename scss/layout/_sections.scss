@@ -1,5 +1,5 @@
 .grid {
-	padding: 150px 40px 150px 40px;
+	padding: 150px 50px 150px 50px;
 	margin: 0 auto;
 	max-width: $container;
 		height: 100%;
@@ -8,17 +8,11 @@
 
 
 .item, .grid-sizer {
-	width: 360px;
+	width: 290px;
 	margin: 10px;
 	opacity: 0;
 	transform: translate3d(0,30%,0);
 
-
-
-h4 {
-	font-size: 1.2em;
-	padding-bottom: 50px;
-}
 
 }
 
