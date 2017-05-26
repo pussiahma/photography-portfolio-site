@@ -6,6 +6,7 @@ footer {
 	padding-top: 30vh;
 
 
+
 	#about, #contact {
 	width: 50%;
 	float: left;
@@ -21,5 +22,12 @@ footer {
 
 	#quote {
 	padding: 40px;
+	}
+
+	#copyright {
+	text-align: center;
+	opacity: 0.7;
+	color: #ccc;
+	padding-top: 40px;
 	}
 }
