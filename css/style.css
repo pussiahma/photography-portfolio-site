@@ -33,7 +33,7 @@ hr {
 
 p {
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.1em;
   font-family: 'Merriweather', serif;
   font-style: italic; }
 
@@ -54,7 +54,8 @@ h3 {
     font-size: 2.5em;
     font-weight: normal;
     text-align: center;
-    clear: both; }
+    clear: both;
+    margin-top: 60px; }
     #backarrow #back:hover {
       opacity: 0.3;
       transition: opacity 0.3s; }
@@ -118,15 +119,7 @@ footer {
   background: black;
   color: #ccc;
   clear: both;
-  padding-top: 25%; }
-  footer h2 {
-    font-family: "Poiret One", sans serif;
-    text-transform: uppercase; }
-  footer h3 {
-    font-family: 'Frank Ruhl Libre', sans-serif; }
-  footer p {
-    font-family: 'Merriweather', serif;
-    font-style: italic; }
+  padding-top: 30vh; }
   footer #about, footer #contact {
     width: 50%;
     float: left; }
