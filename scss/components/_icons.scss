@@ -24,3 +24,48 @@ text-align: center;
 
 }
 
+.fa-angle-right {
+	    float: right;
+    font-size: 2.3em;
+    color: #ccc;
+    opacity: 0.8;
+
+&:hover {
+	color: white;
+}
+
+
+}
+
+.fa-angle-left {
+	    float: left;
+    font-size: 2.3em;
+    color: #ccc;
+    opacity: 0.8;
+
+&:hover {
+	color: white;
+}
+
+}
+
+
+
+
+#close {
+
+	float: right;
+	padding: 15px;
+	color: #fff;
+	z-index: 20000;
+	display: block;
+	font-size: 1.4em;
+	opacity: 0.8;
+
+
+&:hover {
+	opacity: 1;
+}
+
+
+}
