@@ -37,12 +37,13 @@ a:hover {
 .headline {
 	margin-right: auto;
 	font-family: "Poiret One", sans serif;
+	
 	a{
 	&:hover{
-	color: black;
+	color: black !important;
 		}
 	&:active{
-	color:black;
+	color:black !important;
 		}	
 	}
 	}

@@ -42,7 +42,9 @@ overflow: visible;
 	display: block;
 	text-align:center;
 	padding-left: 0;
-	padding-top: 30px;
+	
+	    width: 90%;
+    margin: 0 auto;
 
 	}
 quote {
@@ -56,9 +58,7 @@ hr {
 #contact {
 	padding-right: 0px !important;
 }
-#backarrow {
-	padding-top: 20px;
-}
+
 
 }
 
@@ -129,7 +129,7 @@ display: inline;
   .grid {
 
 .item, .grid-sizer, {
-	width: 450px;
+	width: 450px !important;
 
 
 			}
@@ -139,23 +139,6 @@ display: inline;
 
 }
 
-
-
-@media(min-width: 768px) and (max-width: 1000px) {
-
-
-  .grid {
-
-.item, .grid-sizer, {
-	width: 300px;
-
-
-			}
-
-		}
-
-
-}
 
 
 
@@ -163,22 +146,13 @@ display: inline;
 @media(min-width: 820px) and (max-width: 1000px) {
 
 
-
-
-
-
-
-
 footer {
-
-
 
 
 #contact {
 
 padding-left: 120px;
 	}
-
 
  
  #quote {
@@ -188,8 +162,27 @@ padding-left: 120px;
 
 }
 
+
+
+
+  .grid {
+
+.item, .grid-sizer, {
+	width: 320px;
+
+
+			}
+
+		}
+
+#overlay {
+	padding: 10px;
+	height: 90%;
+
 }
 
+
+}
 
 
 

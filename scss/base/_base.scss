@@ -1,20 +1,12 @@
 
 body{
 	background: white;
+	overflow: auto;
 }
 
 
 h1, .nav a {
 	text-transform: uppercase;
-}
-
-h4  {
-	font-family: 'Merriweather', serif;
-	font-style: italic;
-	text-align: center;
-	padding-bottom: 50px;
-	font-size: $h4;
-	
 }
 
 
