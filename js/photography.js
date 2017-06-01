@@ -280,17 +280,14 @@ function slides() {
 }
 
 if(imageParent.length < 1) {
-		clearInterval(interval);
-	
-	$slide.fadeOut();
-	$overlay.show();
-	$("body").css("background", "#333");
-$(".item").css("opacity" ,"0.2");
-$("header").css("background", "#333");
-$("nav").css("background", "#333").css("border-bottom", "1px solid #000");
-	
-	getImage(thisImage);
+
+	 imageParent = $(".first-img");
+thisImage = $(imageParent).children("a");
+      imageLocation = $(thisImage).attr("href");
+		slideShow(imageLocation);
 	}
+
+
 	},2800);
 
 
