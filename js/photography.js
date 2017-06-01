@@ -132,7 +132,7 @@ function getImage(currentImage) {
 
 
 $(".item a").on("click", function(e) {
-	 if ($(window).width() > 760) {
+	 if ($(window).width() > 760 && $(window).height() > 500) {
 e.preventDefault();
 getImage(this);
 $prev.css("opacity", "0.8");
@@ -249,7 +249,7 @@ $("nav a").css("opacity", "0.1");
 
 slideShow(imageLocation, slides());
 getImage(thisImage);
-
+console.log("WOW SUCH SLIDESHOW!");
 
 
 });
@@ -277,8 +277,6 @@ function slides() {
     slideShow(imageLocation);
 
 
-
-console.log(imageLocation);
 }
 
 if(imageParent.length < 1) {
